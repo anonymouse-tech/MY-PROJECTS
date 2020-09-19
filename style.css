@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+    background: linear-gradient(#ff0808,black,blue,orange,pink,purple,white,indigo);
+    
+}
+
+#apps,#chatbot,#games{
+    width: 100%;
+    height: 800px;
+     
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 100px;
+    margin:8px auto;
+
+}
+img{
+    transition: transform .2s;
+    
+}
+img:hover{
+    transform: scale(0.9);
+    
+}
